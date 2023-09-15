@@ -12,6 +12,11 @@ body {
     background-color: var(--clr-white);
 }
 
+.container {
+    max-width: 960px;
+    margin-inline: auto;
+}
+
 p {
     line-height: 21.82px;
     padding: 0 10px;
@@ -33,8 +38,6 @@ img {
 }
 
 .menu {
-    max-width: 960px;
-    margin-inline: auto; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,10 +75,6 @@ hr {
     background-color: var(--clr-pink-dark);
 }
 
-.somos {
-    max-width: 960px;
-    margin-inline: auto;
-}
 
 .somos-c {
     display: flex;
@@ -89,4 +88,12 @@ hr {
 
 .somos-c__img {
     flex: 1 1 350px;
+}
+
+
+.cursos-c {
+    border: 2px solid #e10bf9;
+
+    display: flex;
+    flex-wrap: wrap;
 }
