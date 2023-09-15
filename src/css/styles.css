@@ -125,6 +125,7 @@ hr {
     border: 2px solid;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -154,9 +155,6 @@ hr {
 .plano__preco sup {
     font-size: 1.5rem;
     font-weight: bold;
-
-    position: relative;
-    top: -20px;
 }
 
 .plano__divisor {
@@ -166,5 +164,29 @@ hr {
     background-color: var(--clr-green-light);
 }
 
+.plano-lista {
+    max-width: 195px;
+    margin: 0 auto;
+}
 
+.plano-lista__item {
+    margin: 10px 0;
+   
+    display: flex;
+    align-items: center;
+}
+
+.plano-lista__item::before {
+    content: "";
+
+    width: 5px;
+    height: 5px;
+    margin-right: 5px;
+
+    background-color: var(--clr-green-light);
+
+    border-radius: 50%;
+
+    display: block;
+}
 
