@@ -130,7 +130,7 @@ hr {
 }
 
 .plano {
-    max-width: 290px;
+    width: 290px;
     margin: 10px;
 
     border: 2px solid var(--clr-green-light);
