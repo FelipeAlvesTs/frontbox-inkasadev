@@ -114,4 +114,57 @@ hr {
     text-align: center;
 }
 
+.planos {
+    background-color: var(--clr-pink-light);
+}
+
+.planos-c {
+    max-width: 960px;
+    margin: auto;
+
+    border: 2px solid;
+
+    display: flex;
+    justify-content: center;
+}
+
+.plano {
+    max-width: 290px;
+    margin: 10px;
+
+    border: 2px solid var(--clr-green-light);
+}
+
+.plano__titulo {
+    margin: 10px auto;
+
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.plano__preco {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+
+    display: block;
+}
+
+.plano__preco sup {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    position: relative;
+    top: -20px;
+}
+
+.plano__divisor {
+    width: 40px;
+    margin: 5px auto;
+
+    background-color: var(--clr-green-light);
+}
+
+
 
