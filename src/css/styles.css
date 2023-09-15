@@ -7,9 +7,14 @@
     --clr-white: white;
 }
 
+
 body {
-    font-family: var(--ff-primary);
     background-color: var(--clr-white);
+}
+
+body * {
+    font-family: var(--ff-primary);
+    font-weight: 400;
 }
 
 .container {
@@ -92,8 +97,21 @@ hr {
 
 
 .cursos-c {
-    border: 2px solid #e10bf9;
-
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
+.curso {
+    flex-basis: 280px;
+    margin: 0 20px;
+}
+
+.curso .curso__titulo {
+    margin: 10px 0px 5px 0px;
+
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
