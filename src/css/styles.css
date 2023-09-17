@@ -122,11 +122,10 @@ hr {
     max-width: 960px;
     margin: auto;
 
-    border: 2px solid;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .plano {
@@ -136,10 +135,15 @@ hr {
     border: 2px solid var(--clr-green-light);
 }
 
+.plano:last-child {
+    background-color: var(--clr-green-light);
+    border-color: var(--clr-pink-dark);
+}
+
 .plano__titulo {
     margin: 10px auto;
 
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: bold;
     text-align: center;
 }
@@ -164,6 +168,10 @@ hr {
     background-color: var(--clr-green-light);
 }
 
+.plano:last-child .plano__divisor {
+    background-color: var(--clr-pink-dark);
+}
+
 .plano-lista {
     max-width: 195px;
     margin: 0 auto;
@@ -185,8 +193,30 @@ hr {
 
     background-color: var(--clr-green-light);
 
-    border-radius: 50%;
+    border-radius: 5px;
 
     display: block;
 }
 
+.plano:last-child .plano-lista__item::before {
+    background-color: var(--clr-pink-dark);
+}
+
+.plano__btn-comprar {
+    width: 180px;
+    margin: 15px auto;
+    padding: 10px;
+
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+
+    border: 2px solid var(--clr-green-light);
+
+    display: block;
+    
+}
+
+.plano:last-child .plano__btn-comprar {
+    border: 2px solid var(--clr-pink-dark);
+}
