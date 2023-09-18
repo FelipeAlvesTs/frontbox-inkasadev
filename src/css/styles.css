@@ -133,6 +133,13 @@ hr {
     align-items: flex-end;
 }
 
+@media (max-width: 800px) {
+    .planos-c { 
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
 .plano {
     width: 290px;
     margin: 10px;
