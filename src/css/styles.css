@@ -291,6 +291,7 @@ hr {
 
 .news-cta {
     flex: 1 1 260px;
+    padding-left: 10px;
 }
 
 .news-cta h2{
@@ -299,7 +300,6 @@ hr {
 }
 
 .news-cta p {
-    margin-left: 5px;
     font-style: italic;
 }
 
