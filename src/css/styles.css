@@ -96,6 +96,10 @@ hr {
     flex: 1 1 350px;
 }
 
+.somos-c__img img {
+    margin: 0 auto;
+}
+
 
 .cursos-c {
     display: flex;
