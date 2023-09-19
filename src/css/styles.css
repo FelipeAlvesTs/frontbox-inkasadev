@@ -7,6 +7,9 @@
     --clr-white: #f5f5f5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: var(--clr-white);
@@ -336,6 +339,14 @@ hr {
 
     cursor: pointer;
 
-    flex: 1 1 260px;
+    flex: 1 1 260px;   
+}
+
+footer {
+    padding: 55px calc((100% - 960px)/2);
     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
